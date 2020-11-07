@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Primary Meta Tags -->
+    <title>Shirley Jhou's Portfolio</title>
+    <meta name="title" content="Shirley Jhou's Portfolio">
+    <meta name="description" content="我的網頁作品集，以RWD網頁設計、PS、AI及攝影專業能力呈現的網站。">
+    <meta name="author" content="shirley" />
+
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="Shirley Jhou's Portfolio">
+    <meta property="og:description" content="我的網頁作品集，練習HTML5、CSS、JavaScript以及放置Illustrator、Photoshop作品與照片的地方。">
+    <meta property="og:image" content="https://drive.google.com/file/d/14fnPAqp7ZUZJsHJzOEDeP4g3wDHDrBhg/view?usp=sharing">
+    <meta property="og:image:alt" content="Shirley Jhou's Portfolio">
+    <meta property="og:image:width" content="1000">
+    <meta property="og:image:height" content="678">
+    <meta property="fb:admins" content="100006825584590" />
+    
+      <!-- 掛載的套件有權重的問題 自己的CSS要放在最下面-->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- 下載字體 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap" rel="stylesheet">
+
+    <!-- 載入Fontawesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+   
+    <!-- CSS -->
+      <link rel="shortcut icon" href="icon/logo_57.gif" />
+      <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+<figure>
+    <img src="pic/0A9D1359-2D1E-4FCD-8C70-92842E2AA30D.jpg" width="300"  >
+            <figcaption>這是阿周</figcaption>
+ <!-- nav -->
+    <nav id="nav">
+        <!-- 綁定label與input作為點擊觸發事件 -->
+        <input type="checkbox" id="check">
+            <!-- 漢堡條 -->
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+       <img href="#" class="logo" src="icon/shirley_logo3.gif" />
+        <ul align="center">
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#aips">AI/PS</a></li>
+            <li><a href="#photographer">Photographer</a></li>
+            <li><a href="#practice">Pracitces</a></li>
+        </ul>
+         
+    </nav>
+
+  <!-- banner -->
+ 
+  <div class="banner" >
+  <section id="intro">
+        <div class="intro-content">
+          <h2>Welcome to Shirley's space</h2>
+          <h3>這裡是我練習寫網頁的地方</h3>
+           <div class="wrapper"> <a class="btn" href="#skill-1"><span>More about me</span></a>
+          </div>
+            </div>
+        
+      
+    </section>
+
+    </div>
+     
+
+       <!-- 4 skills section -->
+
+    <!-- 576以上版本 -->
+    <section id="skill-1" class="skill-1">
+        <div class="row skill-1-row">
+            <!-- front-end -->
+            <div class="col-6 col-xl-3 relat-use">
+                <div class="photographer skill-1-img">
+                    <a href="#front"> <img src="icon/logo_144.gif" alt=""></a>
+                </div>
+                <div class="text-block">
+                    <p>front-End</p>
+                </div>
+            </div>
+            <!-- PS -->
+            <div class="col-6 col-xl-3 relat-use">
+                <div class="photographer skill-1-img mg">
+                    <a href="#ps"><img src="icon/logo_144.gif" alt=""></a>
+                </div>
+                <div class="text-block">
+                    <p>PhotoShop</p>
+                </div>
+            </div>
+            <!-- AI -->
+            <div class="col-6 col-xl-3 relat-use">
+                <div class="photographer skill-1-img ">
+                    <a href="#ai"><img src="icon/logo_144.gif" alt=""></a>
+                </div>
+                <div class="text-block">
+                    <p>illustrator</p>
+                </div>
+            </div>
+            <!-- Photographer -->
+            <div class="col-6 col-xl-3 relat-use">
+                <div class="photographer skill-1-img mg">
+                    <a href="#photographer"><img src="icon/logo_144.gif" alt=""></a>
+                </div>
+                <div class="text-block">
+                    <p>Photographer</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 576以下版本 -->
+    <section id="skill-2" class="skill-2">
+
+        <div class="row">
+            <div class="col-12 sm-skill">
+                <a href="#front">
+                    <p>Front-end</p>
+                </a>
+            </div>
+            <div class="col-12 sm-skill">
+                <a href="#ps">
+                    <p>Photoshop</p>
+                </a>
+            </div>
+            <div class="col-12 sm-skill">
+                <a href="#ai">
+                    <p>illustrator</p>
+                </a>
+            </div>
+            <div class="col-12 sm-skill">
+                <a href="#photographer">
+                    <p>Photographer</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+  </body>
+  </html>
